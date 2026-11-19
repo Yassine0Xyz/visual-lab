@@ -1,0 +1,1 @@
+For Android, set minSdk to 21 or higher in android/app/build.gradle(.kts). Use a recent Flutter stable version compatible with flutter_soloud 5.x.

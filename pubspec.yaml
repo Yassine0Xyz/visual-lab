@@ -1,0 +1,21 @@
+name: sonora_visualizer_lab
+description: A standalone real-time audio visualizer laboratory built with Flutter.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_soloud: ^5.3.1
+  file_picker: ^10.3.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
