@@ -121,7 +121,7 @@ class AudioEngine extends ChangeNotifier {
     if (state == PlaybackState.paused && _handle != null) {
       _soloud.setPause(_handle!, false);
     } else {
-      _handle = await _soloud.play(_source!);
+      _handle = _soloud.play(_source!);
     }
     state = PlaybackState.playing;
     notifyListeners();
